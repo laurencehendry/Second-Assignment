@@ -9,5 +9,6 @@ bibliography: Bibliography_A2.bib
 **Research Question**: Does the rate of economic growth have an effect on the perception of corruption across time?
 
 See @Diagnosis_Corruption [90]
+See @Alina_CorrDiagnosis [89]
 
 ### References
