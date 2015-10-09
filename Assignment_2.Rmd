@@ -1,7 +1,7 @@
 ---
 title: "Second Assignment"
 author: "N. Alvarado and G. Tarriba"
-date: "9 de octubre de 2015"
+date: "09.10.2015"
 output: html_document
 ---
 Does the rate of economic growth have an effect on the perception of corruption?
