@@ -1,3 +1,3 @@
 # Second-Assignment
-###Natalia Gonzalez and Gabriel Tarriba
+###Natalia Halbarado and Gabriel Tarriba
 Second assignment for CR Class
