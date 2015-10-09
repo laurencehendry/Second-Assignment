@@ -4,7 +4,7 @@ author: "N. Alvarado and G. Tarriba"
 date: "09.10.2015"
 output: html_document
 ---
-*Research Question*: Does the rate of economic growth have an effect on the perception of corruption across time?
+**Research Question**: Does the rate of economic growth have an effect on the perception of corruption across time?
 
 See <http://rmarkdown.rstudio.com>.
 
