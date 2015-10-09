@@ -6,6 +6,18 @@ output: html_document
 ---
 **Research Question**: Does the rate of economic growth have an effect on the perception of corruption across time?
 
+**Bibliography**
+
+@article{Diagnosis_Corruption,
+    author = {Mungiu-Pippidi, Alina},
+    title = {Corruption: Diagnosis and Treatment},
+    journal = {Journal of Democracy},
+    year = {2006},
+    volume = {17},
+    number = {3},
+    pages = {86--99},
+}
+
 See <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
