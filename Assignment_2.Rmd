@@ -10,7 +10,8 @@ bibliography: Bibliography_A2.bib
 
 How strong is the relation between corruption and dependence of natural resources extraction?
 
-The "resource curse" is a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country. Researches have found this relation to be significant 
+The "resource curse" is a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country. Researches have also found the relation between governance levels and the dependence on natural resources to be significant as well, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on atural resources to GDP) governance levels appear to be less (@.
+
 
 
 
