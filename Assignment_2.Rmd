@@ -2,11 +2,17 @@
 title: "Second Assignment"
 author: "N. Alvarado and G. Tarriba"
 date: "09.10.2015"
-output: html_document
+output: pdf_document
 bibliography: Bibliography_A2.bib
 ---
 
-**Research Question**: Does the rate of economic growth have an effect on the perception of corruption across time?
+**Research Question**: 
+
+How strong is the relation between corruption and dependence of natural resources extraction?
+
+The "resource curse" is a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country. Researches have found this relation to be significant 
+
+
 
 See @Diagnosis_Corruption [90]
 
