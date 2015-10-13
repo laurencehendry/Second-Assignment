@@ -16,21 +16,14 @@ Its precense has usually been detected along with a weak enforcement of the law,
 
 Authors like XXXXXX have contributed 
 
-The question whether which country characteristics lead to a bigger presence of corruption has been widely discussed and often tried to be explained through empiric methods. 
+The question whether which country characteristics lead to a bigger presence of corruption has been widely discussed and often tried to be explained through empiric methods. One of the theories regarding this matter is the "resource curse", a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country which also correlate the abundance of these resources with corruption. 
 
+Researches have also found the relation between governance levels and the dependence on natural resources to be significant as well, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on atural resources to GDP) governance levels appear to be less as proposed by @arezki2011oil.
 
-
-
-
-
-
-
-The "resource curse" is a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country. Researches have also found the relation between governance levels and the dependence on natural resources to be significant as well, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on atural resources to GDP) governance levels appear to be less as proposed by @arezki2011oil.
-
-But within this field, the relation between the perception of corruption levels, as a proxy to the state of governance, and the dependence on natural resources can also be measured. 
+But within this field, the relation between the perception of corruption levels, as a proxy to the state of governance, and the dependence on natural resources can also be measured. This work aims at providing a contribution to the discussion of whether there is a relation between corruption level and natural resource depdence.
 
 ### Literature review
-Corruption is defined as XXXXXXXXXXXXX
+Corruption is defined as 
 
 On the other hand, the dependence on natural resources extraction is XXXX
 
