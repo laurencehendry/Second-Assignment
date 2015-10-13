@@ -1,0 +1,38 @@
+---
+title: "LitReview"
+author: "Gabriel Tarriba"
+date: "October 13, 2015"
+output: html_document
+bibliography: Bibliography_A2.bib
+---
+
+##Literature Review
+
+In recent decades, a signifcant amount of research in the field of Development Economics have explored the interplay of good governance and economic growth. The term "resource curse" 
+@sachs2001curse 
+was coined to describe a paradoxical fact about developing countries' trajectories: on average, economies with a high stock of natural resources (in particular oil, gas, and minerals) have fared less well in recent decades than countries with less natural resources.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
