@@ -6,15 +6,24 @@ output: html_document
 bibliography: Bibliography_A2.bib
 ---
 
-**Research Question**: 
-
 ### How strong is the relation between corruption and dependence of natural resources extraction?
 
 ### Corruption: An endemic disease?
 
-Corruption is one of the most discussed terms in the field of political science given its impact on the effectiveness of policies, its negative relation with justice and rule of law and its presence as an indicator of other major challenges in the quest for better governance.
+Corruption is one of the most discussed terms in the field of political science given its impact on the effectiveness of policies, its negative relation with justice and rule of law and its presence as an indicator of other major challenges in the quest for better governance. 
+
+Its precense has usually been detected along with a weak enforcement of the law, higher percentages of the population living under poverty and high inequality. 
+
+Authors like XXXXXX have contributed 
 
 The question whether which country characteristics lead to a bigger presence of corruption has been widely discussed and often tried to be explained through empiric methods. 
+
+
+
+
+
+
+
 
 The "resource curse" is a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country. Researches have also found the relation between governance levels and the dependence on natural resources to be significant as well, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on atural resources to GDP) governance levels appear to be less as proposed by @arezki2011oil.
 
@@ -28,7 +37,11 @@ On the other hand, the dependence on natural resources extraction is XXXX
 This works aims at contributing to this discussion by measuring the correlation between the perception of corruption levels and the percentage of natural resources rents to GDP.
 
 ### Methodology
-This work will aim to measure the correlation between corruption and natural resource dependence through an empiric research using a Panel Data approximation (Diffs-in-Diffs)
+This work will aim to measure the correlation between corruption and natural resource dependence at a country level and on a yearly bases through an empiric research using a Panel Data approximation (Diffs-in-Diffs) with two main datasets both from the World Bank Group.
+
+Given the difficulty in measuring corruption, we will use the World Governance Indicators dataset which contains an aggregate indicator of the Perception of Corruption as a proxy of corruption itself, see @WGI. This indicator is an aggregate of the perception of experts and of the society on the levels of corruption of a given country. 
+
+On the other hand, The World Bank also has information on the dependence on natural resources revenuw through the indicator **Total Natural Resources Rents (% of GDP)** which is defined as the total natural resources rents as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents. See @ResRents.
 
 **References**
 
