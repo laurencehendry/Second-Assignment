@@ -6,37 +6,34 @@ output: html_document
 bibliography: Bibliography_A2.bib
 ---
 
-### How strong is the relation between corruption and dependence of natural resources extraction?
+### How strong is the relation between corruption and dependence of natural resources extraction in Latin American countries?
 
 ### Corruption: An endemic disease?
 
-Corruption is one of the most discussed terms in the field of political science given its impact on the effectiveness of policies, its negative relation with justice and rule of law and its presence as an indicator of other major challenges in the quest for better governance. 
+Corruption is one of the most debated phenomena in the policy field because high levels of it are usually detected along with a weak enforcement of the law, inefficiency of investments and poor economic performance.
 
-Its precense has usually been detected along with a weak enforcement of the law, higher percentages of the population living under poverty and high inequality. 
+Due to its capacity to obstruct the efforts made to tackle most pressing issues such as poverty and inequality reduction, and economic growth, most countries openly declare they make compromises in order to reduce and avoid corruption.  Accountability and transparency are also frequently appearing in most policy texts in order to enhance the idea of a more effective and open exercise of public office duties.
 
-Authors like XXXXXX have contributed 
+Taking into account the great efforts some international organisations and countries put in, besides the fastly increasing amout of funds aimed to fight corruption @michael2009evolution, the question whether which country characteristics lead to a bigger presence of corruption is central to the discussion.
 
-The question whether which country characteristics lead to a bigger presence of corruption has been widely discussed and often tried to be explained through empiric methods. One of the theories regarding this matter is the "resource curse", a term coined to express the paradox of a low economic growth and the abundance of natural resources in a country which also correlate the abundance of these resources with corruption. 
+One hypothesis relevant to this debate is whether a completely exogenus chacracteristic as is the large presence of natural resources would favour higher corruption levels as the works of @leite1999does propose. This work aims at testing this hypothesis with data from Latin American countries which are considered a good source for natural resources with the last data available. This ensures the reearch also account for the latest developments in the region.
 
-Researches have also found the relation between governance levels and the dependence on natural resources to be significant as well, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on atural resources to GDP) governance levels appear to be less as proposed by @arezki2011oil.
+### Literature Review
 
-But within this field, the relation between the perception of corruption levels, as a proxy to the state of governance, and the dependence on natural resources can also be measured. This work aims at providing a contribution to the discussion of whether there is a relation between corruption level and natural resource depdence.
 
-### Literature review
-Corruption is defined as 
+One of the most significant contributions to the discussion was made by @leite1999does, the researchers argue that the availability of natural resources is one of the factors on which corruption depends, along with governemnt policies and the concentration of bureaucratic power. 
 
-On the other hand, the dependence on natural resources extraction is XXXX
+More recently, researches have found the relation between governance levels and the dependence on natural resources to be significant, claiming that to higher dependence on the natural resources (expressed as the percentage of rents on natural resources to GDP) governance levels appear to be less as proposed by @arezki2011oil.
 
-This works aims at contributing to this discussion by measuring the correlation between the perception of corruption levels and the percentage of natural resources rents to GDP.
 
 ### Methodology
+
 This work will aim to measure the correlation between corruption and natural resource dependence at a country level and on a yearly bases through an empiric research using a Panel Data approximation (Diffs-in-Diffs) with two main datasets both from the World Bank Group.
 
-Given the difficulty in measuring corruption, we will use the World Governance Indicators dataset which contains an aggregate indicator of the Perception of Corruption as a proxy of corruption itself, see @WGI. This indicator is an aggregate of the perception of experts and of the society on the levels of corruption of a given country. 
+Corruption, given its nature, is not easily measured. For this reason, this work will use the perception on corruption as a proxy. While biases in terms of how people perceive corruption and how it deeply imbedded in it is the country can gravely affect the results, a possible solution is to use several available indexes of corruption with different methodologies.
 
-On the other hand, The World Bank also has information on the dependence on natural resources revenuw through the indicator **Total Natural Resources Rents (% of GDP)** which is defined as the total natural resources rents as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents. See @ResRents.
+On one hand, the World Governance Indicators from the World Bank provides a yearly aggregate measure of the perception of corruption done through surveys to the public and to experts on the subject. On the other hand, the Corruption Perception Index by Transparency International also captures the perception of analysts and experts on how corrupt a particular country seems to be. Both of this indexes could be combined into one unique index for perception of corruption. 
+
+On the other hand, The World Bank also has information on the dependence on natural resources revenuw through the indicator **Total Natural Resources Rents (% of GDP)** which is defined as the total natural resources rents as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents. See @WDI.
 
 **References**
-
-
-
