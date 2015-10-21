@@ -10,11 +10,9 @@ bibliography: Bibliography_A2.bib
 
 ### Corruption: An endemic disease?
 
-Corruption is one of the most debated phenomena in the policy field because high levels of it are usually detected along with a weak enforcement of the law, inefficiency of investments and poor economic performance.
+Corruption is one of the most debated phenomena in the policy field. Due to its capacity to obstruct the efforts made to tackle most pressing issues such as poverty and inequality reduction, and economic growth, most countries openly declare their compromises in order to reduce and avoid corruption. 
 
-Due to its capacity to obstruct the efforts made to tackle most pressing issues such as poverty and inequality reduction, and economic growth, most countries openly declare they make compromises in order to reduce and avoid corruption.  Accountability and transparency are also frequently appearing in most policy texts in order to enhance the idea of a more effective and open exercise of public office duties.
-
-Taking into account the great efforts some international organisations and countries put in, besides the fastly increasing amout of funds aimed to fight corruption @michael2009evolution, the question whether which country characteristics lead to a bigger presence of corruption is central to the discussion.
+Due to its capacity to obstruct the efforts made to tackle most pressing issues, most countries openly declare they make compromises in order to reduce and avoid corruption. Taking into account the great efforts some international organisations and countries put in, besides the fastly increasing amout of funds aimed to fight corruption @michael2009evolution, the question whether which country characteristics lead to a bigger presence of corruption is central to the discussion.
 
 One hypothesis relevant to this debate is whether a completely exogenus chacracteristic as is the large presence of natural resources would favour higher corruption levels as the works of @leite1999does propose. This work aims at testing this hypothesis with data from Latin American countries which are considered a good source for natural resources with the last data available. This ensures the reearch also account for the latest developments in the region.
 
