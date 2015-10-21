@@ -12,15 +12,26 @@ bibliography: Bibliography_A2.bib
 
 ###Corruption: An endemic disease?
 
-Corruption is one of the most intensely debated phenomena in the fields of public policy and development. Corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development. This is why most countries openly declare their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem in developing countries.
+Corruption is one of the most intensely debated phenomena in the fields of public policy and development. Although there is no universally accepted definition of corruption, the consensus in the literature is that it occurs when "public official (A), acting for personal gain, violates the norms of public office and harms the interests of the public (B) to benefit a third party (C) who rewards A for access to goods or services which C would not otherwise obtain" (@brown2006).
+
+
+There is substantial empirical evidence that corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development (see @ades1996, @mauro1998, @azfar2001 and @gupta2002) . This is why most countries avow their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem across the developing world.
 
 The question of which factors are conducive to higher levels of corruption is central to this discussion. Since many national governments, international organizations and development agencies have stepped up their efforts to fight corruption @michael2009, it is crucial to know what policies and institutional characteristics are worth funding in order to fight corruption. In recent years, for instance, many countries have set up anti-corruption agencies, appointed corruption ombudsmen and deepened transparency laws, in line with alleged international best practices.
 
 Nevertheless, more empirical research is needed in order to identify the factors that enable the spread and persistence of corruption. In particular, a better understanding of the ways in which corruption takes hold in public institutions could aid policymakers to determine in which areas to concentrate their efforts. This includes understanding the interplay between economic activity, rent-seeking behavior and corruption. In this context, it is worth keeping in mind that empirically, developing countries with large stocks of natural resources have tended to develop more slowly than developing countries with less natural resources (the 'resource curse'). Could it be that corruption is the missing link -that is, that the dependence on natural resources leads to higher corruption levels, and that these hinder economic development? 
 
-This paper seeks to answer a simple question: is reliance on natural resources a good predictor of a country's corruption level? Our preliminary hypothesis is that the answer is yes, higher levels of resource dependency are associated with higher levels of corruption, across countries and within countries across time. This is what the existing empirical evidence suggests (see among others @leite1999 and @sala2003). However, the evidence is now somewhat outdated, since it predates the commodity-driven boom of the last fifteen years, during which many resource-dependent countries (particularly in Africa) experienced very high rates of economic growth. Do recent trends in economic development contradict the 'resource curse' hypothesis? Have developing countries become better at managing the exploitation of natural resources? We will look at economic and political data for all countries since the Second World War in order to examine these issues.
+## 2. Research Question 
 
-## 2. Literature Review
+This paper seeks to answer a simple question:
+
+**Is the degree of reliance on natural resources a good predictor of a country's corruption level?**
+
+Our preliminary hypothesis is that the answer is yes, higher levels of resource dependency are associated with higher levels of corruption, across countries and within countries across time. This is what the existing empirical evidence suggests (see among others @leite1999 and @sala2003). 
+
+However, the evidence is now somewhat outdated, since it predates the commodity-driven boom of the last fifteen years, during which many resource-dependent countries (particularly in Africa) experienced very high rates of economic growth. Do recent trends in economic development contradict the 'resource curse' hypothesis? Have developing countries become better at managing the exploitation of natural resources? We will look at economic and political data for all countries since the Second World War in order to examine these issues.
+
+## 23. Literature Review
 
 In the last two decades, a significant amount of research in the field of development economics has sought to explore and understand the nature of the relationship between natural resource exploitation, good governance and economic development. 
 The trigger for much of the interest in this topic was the empirical discovery made in 1995 by Sachs and Werner that countries with abundant natural resources tend to experience slower economic growth than countries with scarce natural resources (@sachs1995). This phenomenon was termed the “Natural resource curse”. 
@@ -34,22 +45,43 @@ There is substantial empirical evidence for this institutional hypothesis. For i
 One crucial fact highlighted by the empirical literature is that not all types of extractive industries have the same impact on the quality of governance and economic development: some researchers (notably @pendergast2007 and @shaxson2007) find that the exploitation of fuel resources have a more negative impact on governance than the exploitation of other natural resources. 
 Finally, an important lesson from the empirical literature is that the effect of natural resource reliance on corruption levels depends on the quality of democratic institutions (see for instance @bhattacharyya2008). 
 
-## 3. Methodology and data sources
+## 4. Methodology and data sources
 
-### 3.1 Brief characterization
+### 4.1 General description of the proposed method
+
 Our analysis will investigate the nature of the relationship between the level of corruption in one country and its level of dependence on natural resource exploitation. Using panel data for all countries in the world, for all years available since the Second World War, will take a measure of corruption as our dependent variable, which we will regress on a measure of dependence on natural resources as well as control variables.  our depen   work will seek to  measuring the impact of natural resources dependency on corruption levels using yearly information (Panel Data).
 
-Corruption, given its nature, is not easily measured. For this reason, this work will use the perception on corruption as a proxy. While biases in terms of how people perceive corruption and how it deeply imbedded in it is the country can gravely affect the results, a possible solution is to use several available indexes of corruption with different methodologies. 
+### 4.2 On the measurement of Corruption (the dependent variable)
 
-On one hand, the World Governance Indicators from the World Bank provides a yearly aggregate measure of the perception of corruption done through surveys to the public and to experts on the subject. On the other hand, the Corruption Perception Index by Transparency International also captures the perception of analysts and experts on how corrupt a particular country seems to be. Another source will be the International Country Risk Guide made by the PRS Group, used in the work of @leite1999does to assess the trend on perception of corruption. These indexes could be combined into one unique index for perception of corruption to make them more robust. We also expect to test if the results of these indexes are correlated in order to ensure they capture the same phenomenon.
+Corruption, given its nature, is not easily measured. For this reason, this work will use the perception of corruption as a proxy for corruption. While biases in terms of how people perceive corruption and how it deeply embedded in it is the country can gravely affect the results, a possible solution is to use several available indexes of corruption with different methodologies. 
 
-On the other hand, to measure the dependence of natural resources we will use The World Bank's indicator **Total Natural Resources Rents (% of GDP)** which is defined as the total natural resources rents as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents (@WDI). This indicator will let us see how the fluctuating levels of rents from natural resources affect the perception of corruption.
+On the one hand, the World Governance Indicators from the World Bank provides a yearly aggregate measure of the perception of corruption done through surveys to the public and to experts on the subject. On the other hand, the Corruption Perception Index by Transparency International also captures the perception of analysts and experts on how corrupt a particular country seems to be. 
 
-$$Corruption=\beta_0+\beta_1 NaturalResourceDependency +\beta_2ControlVars + \epsilon$$
+Another possible source is the International Country Risk Guide made by the PRS Group, used in the work of @leite1999 to assess the trend on perception of corruption. These indexes could be combined into one unique index for perception of corruption to make them more robust. We also expect to test if the results of these indexes are correlated in order to ensure they capture the same phenomenon.
 
-Following the literature review and given that the rents from natural resources could stay at the same level but the GDP could decrease, therefore changing the percentage distribution, we will control for the state of the economy through a variable of GDP Growth. There is also academic evidence that perception of corruption fluctuates along with the economic situation of the households, as a proxy we will use the data on unemployment.  We will also control for the political stability of the country adding a variable that contains information of armed conflict. 
+### 4.3 On the measurement of Dependence on natural resources (variable of interest)
 
-Finally, we will create dummy variables for the different regions in order to compare and draw more concrete conclusions. 
+To measure the dependence of natural resources we will use The World Bank's indicator *Total Natural Resources Rents (% of GDP)* which is defined as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents (@WDI). This indicator will let us see how the fluctuating levels of rents from natural resources affect the perception of corruption. With this indicator, however, we will not be able to differentiate between sources of resource rents (e.g. oil and gas versus forestry or minerals).
+
+### 4.4 Our proposed regression model
+
+Our empirical analysis method will consist of a regression of our measure of Corruption against Natural Resource Dependency (our explanatory variable of interest) plus two control variables:
+
+- **Corruption** This is the dependent variable and, as explained in 3.3, it will be measured through a proxy (perception of corruption), on an index from 0 to 10 (where lower scores indicate more corruption). 
+
+- **Natural Resource Rents** Measured as percentage of GDP with World Bank data. 
+
+- **GDP per capita** This is a control variable. It is in Purchasing Power Parity terms. It is necessary to include it in the regression since poorer countries tend to be more corrupt and depend more on natural resources. Therefore, if we exclude it we might induce Omitted Variable Bias in our estimators.
+
+- **Armed Conflict** This is the second control variable. It is a proxy for political stability. It indicates how many armed conflicts a country has suffered on its own territory since 1946. The data is from the Peace Research Institute Oslo's Conflict Data Program.
+
+- **Unemployment** This is our third control variable. There is empirical evidence that perception of corruption increases when unemployment increases. It is measured as the average yearly unemployment rate (mid-year or at year-end).
+
+Our regression equation is thus:
+
+$$Corruption=\beta_0+\beta_1 NaturalResourceRents +\beta_2 GDPpercapita + \beta_3 ArmedConflict + \beta_4 Unemployment + \epsilon$$
+
+We may also add dummy variables for the different regions in order to control for region-specific effects.
 
 
-##References
+## 5. References
