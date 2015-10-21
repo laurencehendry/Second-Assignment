@@ -1,6 +1,6 @@
 ---
 title: "Second Assignment"
-author: "N. Alvarado and G. Tarriba"
+author: "Natalia Alvarado & Gabriel Tarriba"
 date: "09.10.2015"
 output: html_document
 bibliography: Bibliography_A2.bib
@@ -34,9 +34,10 @@ There is substantial empirical evidence for this institutional hypothesis. For i
 One crucial fact highlighted by the empirical literature is that not all types of extractive industries have the same impact on the quality of governance and economic development: some researchers (notably @pendergast2007 and @shaxson2007) find that the exploitation of fuel resources have a more negative impact on governance than the exploitation of other natural resources. 
 Finally, an important lesson from the empirical literature is that the effect of natural resource reliance on corruption levels depends on the quality of democratic institutions (see for instance @bhattacharyya2008). 
 
-### Methodology
+## 3. Methodology and data sources
 
-This work will aim at measuring the impact of natural resources dependency on corruption levels using yearly information (Panel Data).
+### 3.1 Brief characterization
+Our analysis will investigate the nature of the relationship between the level of corruption in one country and its level of dependence on natural resource exploitation. Using panel data for all countries in the world, for all years available since the Second World War, will take a measure of corruption as our dependent variable, which we will regress on a measure of dependence on natural resources as well as control variables.  our depen   work will seek to  measuring the impact of natural resources dependency on corruption levels using yearly information (Panel Data).
 
 Corruption, given its nature, is not easily measured. For this reason, this work will use the perception on corruption as a proxy. While biases in terms of how people perceive corruption and how it deeply imbedded in it is the country can gravely affect the results, a possible solution is to use several available indexes of corruption with different methodologies. 
 
