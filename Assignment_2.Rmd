@@ -12,7 +12,7 @@ bibliography: Bibliography_A2.bib
 
 ###Corruption: An endemic disease?
 
-Corruption is one of the most intensely debated phenomena in the policy field, particularly in developing countries. Corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development. This is why most countries openly declare their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem in developing countries.
+Corruption is one of the most intensely debated phenomena in the fields of public policy and development. Corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development. This is why most countries openly declare their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem in developing countries.
 
 The question of which factors are conducive to higher levels of corruption is central to this discussion. Since many national governments, international organizations and development agencies have stepped up their efforts to fight corruption @michael2009, it is crucial to know what policies and institutional characteristics are worth funding in order to fight corruption. In recent years, for instance, many countries have set up anti-corruption agencies, appointed corruption ombudsmen and deepened transparency laws, in line with alleged international best practices.
 
@@ -44,7 +44,7 @@ On one hand, the World Governance Indicators from the World Bank provides a year
 
 On the other hand, to measure the dependence of natural resources we will use The World Bank's indicator **Total Natural Resources Rents (% of GDP)** which is defined as the total natural resources rents as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents (@WDI). This indicator will let us see how the fluctuating levels of rents from natural resources affect the perception of corruption.
 
-$$Corruption=\beta0+\beta1 Natural Resource Dependency +\beta Control Variables + \epsilon$$
+$$Corruption=\beta_0+\beta_1 NaturalResourceDependency +\beta_2ControlVars + \epsilon$$
 
 Following the literature review and given that the rents from natural resources could stay at the same level but the GDP could decrease, therefore changing the percentage distribution, we will control for the state of the economy through a variable of GDP Growth. There is also academic evidence that perception of corruption fluctuates along with the economic situation of the households, as a proxy we will use the data on unemployment.  We will also control for the political stability of the country adding a variable that contains information of armed conflict. 
 
