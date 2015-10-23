@@ -31,7 +31,7 @@ Our preliminary hypothesis is that the answer is yes, higher levels of resource 
 
 However, the evidence is now somewhat outdated, since it predates the commodity-driven boom of the last fifteen years, during which many resource-dependent countries (particularly in Africa) experienced very high rates of economic growth. Do recent trends in economic development contradict the 'resource curse' hypothesis? Have developing countries become better at managing the exploitation of natural resources? We will look at economic and political data for all countries since the Second World War in order to examine these issues.
 
-## 23. Literature Review
+## 3. Literature Review
 
 In the last two decades, a significant amount of research in the field of development economics has sought to explore and understand the nature of the relationship between natural resource exploitation, good governance and economic development. 
 The trigger for much of the interest in this topic was the empirical discovery made in 1995 by Sachs and Werner that countries with abundant natural resources tend to experience slower economic growth than countries with scarce natural resources (@sachs1995). This phenomenon was termed the “Natural resource curse”. 
