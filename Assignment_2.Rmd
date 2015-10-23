@@ -13,7 +13,7 @@ bibliography: Bibliography_A2.bib
 
 ###Corruption: An endemic disease?
 
-Corruption is one of the most intensely debated phenomena in the fields of public policy and development. Although there is no universally accepted definition of corruption, the consensus in the literature is that it occurs when "public official (A), acting for personal gain, violates the norms of public office and harms the interests of the public (B) to benefit a third party (C) who rewards A for access to goods or services which C would not otherwise obtain" (@brown2006).
+Corruption is one of the most intensely debated phenomena in the field of public policy and development. Although there is no universally accepted definition of corruption, the consensus in the literature is that it occurs when "public official (A), acting for personal gain, violates the norms of public office and harms the interests of the public (B) to benefit a third party (C) who rewards A for access to goods or services which C would not otherwise obtain" (@brown2006).
 
 
 There is substantial empirical evidence that corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development (see @ades1996, @mauro1998, @azfar2001 and @gupta2002) . This is why most countries avow their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem across the developing world.
