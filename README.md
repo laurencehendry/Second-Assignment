@@ -1,7 +1,8 @@
 ## Assignment 2 - Project Proposal for MPP-E1180: Introduction to Collaborative Social Science Data Analysis
 #### Contributors: S. Natalia Alvarado Pachon <a href="mailto:contact@natalia.im">contact@natalia.im</a> and Gabriel Tarriba <a href="g.tarriba@mpp.hertie-school.org">g.tarriba@mpp.hertie-school.org</a>.
+#### Master in Public Policy, Hertie School of Governance
 
-***Version 23.10.2015***
+***Due date: 23.10.2015***
 
 ### General Description
 This folder contains all our files for Assignment 2, which is our Project Proposal. With this exercise we aimed at putting into practice the skills learned through the use of **BibTex** and **R-Markdown**. 
