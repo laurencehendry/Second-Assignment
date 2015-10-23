@@ -6,7 +6,7 @@ output: html_document
 bibliography: Bibliography_A2.bib
 ---
 
-## How strong is the relation between corruption and dependence of natural resources extraction? A cross-country analysis
+## How strong is the relation between corruption and dependence on natural resource rents? A cross-country analysis
 
 ## 1. Introduction 
 
