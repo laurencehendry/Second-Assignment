@@ -1,11 +1,10 @@
 # Assignment No.2 - MPP-E1180: Introduction to Collaborative Social Science Data Analysis
 ### Contributors: S. Natalia Alvarado Pachon <a href="mailto:contact@natalia.im">contact@natalia.im</a> and Gabriel Tarriba <a href="g.tarriba@mpp.hertie-school.org">g.tarriba@mpp.hertie-school.org</a>.
-Second assignment for CR Class
 
-***Version 21.10.2015***
+***Version 23.10.2015***
 
 ### General Description
-This folder contains the files and final document for Assignment 2, which is our Project Proposal. With this exercise we aimed at putting into practice the skills learned through the use of **BibTex** and **R-Markdown**. 
+This folder contains all our files for Assignment 2, which is our Project Proposal. With this exercise we aimed at putting into practice the skills learned through the use of **BibTex** and **R-Markdown**. 
 
 ###  Description of files contained:
 
