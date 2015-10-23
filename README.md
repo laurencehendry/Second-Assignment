@@ -1,5 +1,5 @@
-# Assignment No.2 - MPP-E1180: Introduction to Collaborative Social Science Data Analysis
-### Contributors: S. Natalia Alvarado Pachon <a href="mailto:contact@natalia.im">contact@natalia.im</a> and Gabriel Tarriba <a href="g.tarriba@mpp.hertie-school.org">g.tarriba@mpp.hertie-school.org</a>.
+## Assignment 2 - Project Proposal for MPP-E1180: Introduction to Collaborative Social Science Data Analysis
+#### Contributors: S. Natalia Alvarado Pachon <a href="mailto:contact@natalia.im">contact@natalia.im</a> and Gabriel Tarriba <a href="g.tarriba@mpp.hertie-school.org">g.tarriba@mpp.hertie-school.org</a>.
 
 ***Version 23.10.2015***
 
