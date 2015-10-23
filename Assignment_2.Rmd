@@ -48,41 +48,48 @@ Finally, an important lesson from the empirical literature is that the effect of
 
 ## 4. Methodology and data sources
 
-### 4.1 General description of the proposed method
+### 4.1 General description of the proposed methods
 
-Our analysis will investigate the nature of the relationship between the level of corruption in one country and its level of dependence on natural resource exploitation. Using panel data for all countries in the world, for all years available since the Second World War, will take a measure of corruption as our dependent variable, which we will regress on a measure of dependence on natural resources as well as control variables.  our depen   work will seek to  measuring the impact of natural resources dependency on corruption levels using yearly information (Panel Data).
+Our analysis will investigate the nature of the relationship between the level of dependence on natural resource rents of one country and its level of corruption. For this purpose, we will collect data on as many countries as possible, for all the years for which standardized data is available. The data will be collected and merged from at least three sources. After constructing the panel dataset, we will use econometric techniques such as Panel OLS and Fixed Effects regressions.  
+
+Our dataset will contain the following variables:
+-A measure of a country's degree of corruption (the dependent variable)
+-A measure of a country's degree of reliance on natural resource rents (the explanatory variable of interest)
+-Control variables that could bias our result if not include in the regression (i.e. variables that are related both to the dependent variable and to the explanatory variable of interest)
 
 ### 4.2 On the measurement of Corruption (the dependent variable)
 
-Corruption, given its nature, is not easily measured. For this reason, this work will use the perception of corruption as a proxy for corruption. While biases in terms of how people perceive corruption and how it deeply embedded in it is the country can gravely affect the results, a possible solution is to use several available indexes of corruption with different methodologies. 
+Corruption, given its nature, is not easily defined nor measured. For this reason, this work will use the perception of corruption as a proxy for corruption. While the relationship between actual corruption levels and corruption perception levels might differ across countries, there is no better measure for corruption. Empirically, it is standard practice to take corruption perception as a proxy for corruption. To balance out the biases that different measures of perceptions of corruption might contain, we might combine several available measures of corruption perception. Among them are:
+*The perception of corruption index from the World Governance Indicators of the World Bank. This yearly measure is estimated from surveys to experts, leaders and the general public.
+*The Corruption Perceptions Index of Transparency International also captures the perception of leaders and experts.
+*A Corruption Trends Index is included in the International Country Risk Guide developed by the PRS Group. This measure is used among others by @leite1999. 
+These indexes could be combined into one unique index for perception of corruption to make them more robust (except if they are very highly correlated, in which case we might just use one of them).
 
-On the one hand, the World Governance Indicators from the World Bank provides a yearly aggregate measure of the perception of corruption done through surveys to the public and to experts on the subject. On the other hand, the Corruption Perception Index by Transparency International also captures the perception of analysts and experts on how corrupt a particular country seems to be. 
-
-Another possible source is the International Country Risk Guide made by the PRS Group, used in the work of @leite1999 to assess the trend on perception of corruption. These indexes could be combined into one unique index for perception of corruption to make them more robust. We also expect to test if the results of these indexes are correlated in order to ensure they capture the same phenomenon.
-
-### 4.3 On the measurement of Dependence on natural resources (variable of interest)
+### 4.3 On the measurement of Dependence on natural resource rents (variable of interest)
 
 To measure the dependence of natural resources we will use The World Bank's indicator *Total Natural Resources Rents (% of GDP)* which is defined as the sum of oil rents, natural gas rents, coal rents (hard and soft), mineral rents, and forest rents (@WDI). This indicator will let us see how the fluctuating levels of rents from natural resources affect the perception of corruption. With this indicator, however, we will not be able to differentiate between sources of resource rents (e.g. oil and gas versus forestry or minerals).
 
-### 4.4 Our proposed regression model
+### 4.4 Possible control variables
 
-Our empirical analysis method will consist of a regression of our measure of Corruption against Natural Resource Dependency (our explanatory variable of interest) plus two control variables:
+To avoid omitted variable bias, it is important to include in the regressions variables that are correlated with both the dependent variable **Corruption Perception** and the key interest variable **Total Natural Resources Rents**. The literature on the topic suggests what some of these variables can be. We will include the following three and test their robustness.
 
-- **Corruption** This is the dependent variable and, as explained in 3.3, it will be measured through a proxy (perception of corruption), on an index from 0 to 10 (where lower scores indicate more corruption). 
+- **GDP per capita** It is necessary to include it in the regression since poorer countries tend to be more corrupt and depend more on natural resources. Therefore, if we exclude it we might induce Omitted Variable Bias in our estimators. We will include it in Purchasing Power Parity terms to control for varying price levels among countries. Source: World Development Indicators, World Bank.
 
-- **Natural Resource Rents** Measured as percentage of GDP with World Bank data. 
+- **Armed Conflict** This is the second control variable. It is a proxy for political stability. It indicates how many armed conflicts a country has suffered on its own territory since 1946. Source: Conflict Data Program, Peace Research Institute Oslo.
 
-- **GDP per capita** This is a control variable. It is in Purchasing Power Parity terms. It is necessary to include it in the regression since poorer countries tend to be more corrupt and depend more on natural resources. Therefore, if we exclude it we might induce Omitted Variable Bias in our estimators.
+- **Unemployment** This is our third control variable. There is empirical evidence that perception of corruption increases when unemployment increases. It is measured as the average yearly unemployment rate (mid-year or at year-end). Source: World Development Indicators, World Bank.
 
-- **Armed Conflict** This is the second control variable. It is a proxy for political stability. It indicates how many armed conflicts a country has suffered on its own territory since 1946. The data is from the Peace Research Institute Oslo's Conflict Data Program.
+### 4.5 Possible regression techniques
 
-- **Unemployment** This is our third control variable. There is empirical evidence that perception of corruption increases when unemployment increases. It is measured as the average yearly unemployment rate (mid-year or at year-end).
-
-Our regression equation is thus: 
-
+We will first conduct a Pooled OLS regression as follows: 
 $$Corruption=\beta_0+\beta_1 NaturalResourceRents +\beta_2 GDPpercapita + \beta_3 ArmedConflict + \beta_4 Unemployment + \epsilon$$
 
+The next step will be to run a Fixed Effects regression, which will allow us to get rid of the country-specific fixed effects (such that we will only be analyzing the variation in variables within one country across time). To run a Fixed Effects regression, we will subtract from each term its mean. Thus, the regression equation will be:
+$$Corruption=\beta^*_1 NaturalResourceRents +\beta_2^* GDPpercapita + \beta_3^* ArmedConflict + \beta_4^* Unemployment + \epsilon$$
+
 We may also add dummy variables for the different regions in order to control for region-specific effects.
+
+### 4.6 Possible challenges
 
 
 ## 5. References
