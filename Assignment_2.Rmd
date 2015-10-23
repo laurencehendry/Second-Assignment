@@ -1,7 +1,7 @@
 ---
 title: "Project proposal: How strong is the relationship between a country's degree of dependence on natural resource rents and its corruption level?"
 author: "Natalia Alvarado & Gabriel Tarriba"
-date: "09.10.2015"
+date: "23.10.2015"
 output: 
   pdf_document:
     toc: true
@@ -16,7 +16,7 @@ bibliography: Bibliography_A2.bib
 Corruption is one of the most intensely debated phenomena in the field of public policy and development. Although there is no universally accepted definition of corruption, the consensus in the literature is that it occurs when "public official (A), acting for personal gain, violates the norms of public office and harms the interests of the public (B) to benefit a third party (C) who rewards A for access to goods or services which C would not otherwise obtain" (@brown2006).
 
 
-There is substantial empirical evidence that corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development (see @ades1996, @mauro1998, @azfar2001 and @gupta2002) . This is why most countries avow their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem across the developing world.
+There is substantial empirical evidence that corruption obstructs efforts to reduce poverty and inequality, accelerate economic growth and promote sustainabile development (see @ades1996, @mauro1998, @azfar2001 and @gupta2002). This is why most countries avow their commitment to fighting and avoiding corruption. And yet, corruption remains an endemic problem across the developing world.
 
 The question of which factors are conducive to higher levels of corruption is central to this discussion. Since many national governments, international organizations and development agencies have stepped up their efforts to fight corruption @michael2009, it is crucial to know what policies and institutional characteristics are worth funding in order to fight corruption. In recent years, for instance, many countries have set up anti-corruption agencies, appointed corruption ombudsmen and deepened transparency laws, in line with alleged international best practices.
 
@@ -26,7 +26,7 @@ Nevertheless, more empirical research is needed in order to identify the factors
 
 This paper seeks to answer a simple question:
 
-**Is the degree of reliance on natural resources a good predictor of a country's corruption level?**
+**How strong is the relationship between a country’s degree of dependence on naturalresource rents and its corruption level?**
 
 Our preliminary hypothesis is that the answer is yes, higher levels of resource dependency are associated with higher levels of corruption, across countries and within countries across time. This is what the existing empirical evidence suggests (see among others @leite1999 and @sala2003). 
 
@@ -37,20 +37,23 @@ However, the evidence is now somewhat outdated, since it predates the commodity-
 In the last two decades, a significant amount of research in the field of development economics has sought to explore and understand the nature of the relationship between natural resource exploitation, good governance and economic development. 
 The trigger for much of the interest in this topic was the empirical discovery made in 1995 by Sachs and Werner that countries with abundant natural resources tend to experience slower economic growth than countries with scarce natural resources (@sachs1995). This phenomenon was termed the “Natural resource curse”. 
 
-Nevertheless, the hypothesis that Sachs and Werner put forth to explain this empirical relationship is purely economical: they conjectured that the exploitation and export of natural resources might provoke an over-valuation of a country’s currency, thus making its other exports uncompetitive (i.e. the “Dutch disease”). Sachs and Werner further develop this thesis in “The curse of natural resources” (@sachs2001).
+Nevertheless, the hypothesis that Sachs and Werner put forth to explain this empirical relationship is purely economical: they conjectured that the exploitation and export of natural resources might provoke an over-valuation of a country’s currency, thus making its other exports uncompetitive (i.e. the “Dutch disease”). Sachs and Werner further develop this thesis in “The curse of natural resources” [-@sachs2001].
 
 Following Sachs and Werner’s original paper, many scholars have hypothesized that the culprit for the low growth rates of resource-rich nations might be not overvalued currencies but weak and ineffective institutions. This is what Mehlum et al call the “rent-seeking hypothesis”, through which “resource abundance leads to a deterioration of institutional quality in turn lowering economic growth” (@mehlum2006). The idea is that as governments in countries with relatively weak institutions become more dependent on natural resources, they engage in rent-seeking behavior that is detrimental for the development and functioning of institutions.
 
-There is substantial empirical evidence for this institutional hypothesis. For instance, Leite (@leite1999) concludes that the availability of natural resources is one of the factors on which corruption depends, along with government policies and the concentration of bureaucratic power. Similarly, analyzing the case of Nigeria, Sala-i-Martin and Subramanian (@sala2003) conclude that “some natural resources – oil and minerals in particular – exert a negative and nonlinear impact on growth via their deleterious impact on institutional quality” (@sala2003). 
+There is substantial empirical evidence for this institutional hypothesis. For instance, Leite [-@leite1999] concludes that the availability of natural resources is one of the factors on which corruption depends, along with government policies and the concentration of bureaucratic power. Similarly, analyzing the case of Nigeria, Sala-i-Martin and Subramanian [-@sala2003] conclude that “some natural resources – oil and minerals in particular – exert a negative and nonlinear impact on growth via their deleterious impact on institutional quality”. 
 
 One crucial fact highlighted by the empirical literature is that not all types of extractive industries have the same impact on the quality of governance and economic development: some researchers (notably @pendergast2007 and @shaxson2007) find that the exploitation of fuel resources have a more negative impact on governance than the exploitation of other natural resources. 
-Finally, an important lesson from the empirical literature is that the effect of natural resource reliance on corruption levels depends on the quality of democratic institutions (see for instance @bhattacharyya2008). 
+
+Another important lesson from the empirical literature is that the effect of natural resource reliance on corruption levels depends on the quality of democratic institutions (see for instance @bhattacharyya2010). 
+
+To summarize the findings of the literature review, there seems to be a consensus that higher levels of dependence on natural resource rents is associated with higher levels of corruption, but this relationship is not equal for all types of natural resource rents. A recurrent theme in the literature on the topic is the difficulty to measure corruption as well as identification and causality issues: being dependent on natural resources might favor corruption, but highly corrupt regimes might also choose to rely more heavily on natural resources (rather than diversifying their sources of income by promoting economic growth, for instance).
 
 ## 4. Methodology and data sources
 
 ### 4.1 General description of the proposed methods
 
-Our analysis will investigate the nature of the relationship between the level of dependence on natural resource rents of one country and its level of corruption. For this purpose, we will collect data on as many countries as possible, for all the years for which standardized data is available. The data will be collected and merged from at least three sources. After constructing the panel dataset, we will use econometric techniques such as Panel OLS and Fixed Effects regressions.  
+Our analysis will investigate the nature of the relationship between the level of dependence on natural resource rents of one country and its level of corruption. For this purpose, we will collect data on as many countries as possible, for all the years for which standardized data is available. The data will be collected and merged from at least three sources. After constructing the panel dataset, we will use econometric techniques such as Panel OLS and Fixed Effects regressions. We will not make causal claims about the relationship between corruption and resource rents, for the reason mentioned before: the causality might be bidirectional.
 
 Our dataset will contain the following variables:
 -A measure of a country's degree of corruption (the dependent variable)
@@ -60,9 +63,9 @@ Our dataset will contain the following variables:
 ### 4.2 On the measurement of Corruption (the dependent variable)
 
 Corruption, given its nature, is not easily defined nor measured. For this reason, this work will use the perception of corruption as a proxy for corruption. While the relationship between actual corruption levels and corruption perception levels might differ across countries, there is no better measure for corruption. Empirically, it is standard practice to take corruption perception as a proxy for corruption. To balance out the biases that different measures of perceptions of corruption might contain, we might combine several available measures of corruption perception. Among them are:
-*The perception of corruption index from the World Governance Indicators of the World Bank. This yearly measure is estimated from surveys to experts, leaders and the general public.
-*The Corruption Perceptions Index of Transparency International also captures the perception of leaders and experts.
-*A Corruption Trends Index is included in the International Country Risk Guide developed by the PRS Group. This measure is used among others by @leite1999. 
+- The perception of corruption index from the World Governance Indicators of the World Bank. This yearly measure is estimated from surveys to experts, leaders and the general public.
+- The Corruption Perceptions Index of Transparency International also captures the perception of leaders and experts.
+- A Corruption Trends Index is included in the International Country Risk Guide developed by the PRS Group. This measure is used among others by @leite1999. 
 These indexes could be combined into one unique index for perception of corruption to make them more robust (except if they are very highly correlated, in which case we might just use one of them).
 
 ### 4.3 On the measurement of Dependence on natural resource rents (variable of interest)
@@ -82,14 +85,19 @@ To avoid omitted variable bias, it is important to include in the regressions va
 ### 4.5 Possible regression techniques
 
 We will first conduct a Pooled OLS regression as follows: 
-$$Corruption=\beta_0+\beta_1 NaturalResourceRents +\beta_2 GDPpercapita + \beta_3 ArmedConflict + \beta_4 Unemployment + \epsilon$$
+$$Corruption_i=\beta_0+\beta_1 NaturalResourceRents_i +\beta_2 GDPpercapita_i + \beta_3 ArmedConflict_i + \beta_4 Unemployment_i + \epsilon_i$$
 
 The next step will be to run a Fixed Effects regression, which will allow us to get rid of the country-specific fixed effects (such that we will only be analyzing the variation in variables within one country across time). To run a Fixed Effects regression, we will subtract from each term its mean. Thus, the regression equation will be:
-$$Corruption=\beta^*_1 NaturalResourceRents +\beta_2^* GDPpercapita + \beta_3^* ArmedConflict + \beta_4^* Unemployment + \epsilon$$
+$$Corruption^*_{it} = \beta_1 NaturalResourceRents^*_{it} + \beta_2 GDPpercapita^*_{it} + \beta_3 ArmedConflict^*_{it} + \beta_4 Unemployment^*_{it} + \epsilon$$
 
-We may also add dummy variables for the different regions in order to control for region-specific effects.
+The terms in the equation above are demeaned to eliminate the fixed effects, such that:
+$$NaturalResourceRents^*_{it} = NaturalResourceRents_it - \overline {NaturalResourceRents_i}$$
+$$GDPpercapita^*_{it} = GDPpercapita_{it} - \overline {GDPpercapita_i}$$
+$$ArmedConflict^*_{it} = ArmedConflict_{it} - \overline {ArmedConflict_i}$$
+$$Unemployment^*_{it} = Unemployment_{it} - \overline {Unemployment_i}$$
 
-### 4.6 Possible challenges
+We will conduct an F-test to verify that Fixed Effects is an appropriate technique.
 
+**Note**: We may also add dummy variables for the different regions in order to control for region-specific effects (i.e. see if the relationship between resource rent dependence and corruption is stronger in some regions, controlling for all else).
 
 ## 5. References
